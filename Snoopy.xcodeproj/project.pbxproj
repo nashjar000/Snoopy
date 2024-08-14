@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F22608F52C6D276800E35A8D /* SnoopyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22608F42C6D276800E35A8D /* SnoopyApp.swift */; };
+		F22608F72C6D276800E35A8D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22608F62C6D276800E35A8D /* ContentView.swift */; };
+		F22608F92C6D276A00E35A8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F22608F82C6D276A00E35A8D /* Assets.xcassets */; };
+		F22608FC2C6D276A00E35A8D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F22608FB2C6D276A00E35A8D /* Preview Assets.xcassets */; };
+		F22609062C6D276B00E35A8D /* SnoopyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22609052C6D276B00E35A8D /* SnoopyTests.swift */; };
+		F22609102C6D276B00E35A8D /* SnoopyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F226090F2C6D276B00E35A8D /* SnoopyUITests.swift */; };
+		F22609122C6D276B00E35A8D /* SnoopyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22609112C6D276B00E35A8D /* SnoopyUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F22609022C6D276B00E35A8D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F22608E92C6D276800E35A8D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F22608F02C6D276800E35A8D;
+			remoteInfo = Snoopy;
+		};
+		F226090C2C6D276B00E35A8D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F22608E92C6D276800E35A8D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F22608F02C6D276800E35A8D;
+			remoteInfo = Snoopy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F22608F12C6D276800E35A8D /* Snoopy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Snoopy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F22608F42C6D276800E35A8D /* SnoopyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnoopyApp.swift; sourceTree = "<group>"; };
+		F22608F62C6D276800E35A8D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F22608F82C6D276A00E35A8D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F22608FB2C6D276A00E35A8D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F22609012C6D276B00E35A8D /* SnoopyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnoopyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F22609052C6D276B00E35A8D /* SnoopyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnoopyTests.swift; sourceTree = "<group>"; };
+		F226090B2C6D276B00E35A8D /* SnoopyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnoopyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F226090F2C6D276B00E35A8D /* SnoopyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnoopyUITests.swift; sourceTree = "<group>"; };
+		F22609112C6D276B00E35A8D /* SnoopyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnoopyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F22608EE2C6D276800E35A8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F22608FE2C6D276B00E35A8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F22609082C6D276B00E35A8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F22608E82C6D276800E35A8D = {
+			isa = PBXGroup;
+			children = (
+				F22608F32C6D276800E35A8D /* Snoopy */,
+				F22609042C6D276B00E35A8D /* SnoopyTests */,
+				F226090E2C6D276B00E35A8D /* SnoopyUITests */,
+				F22608F22C6D276800E35A8D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F22608F22C6D276800E35A8D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F22608F12C6D276800E35A8D /* Snoopy.app */,
+				F22609012C6D276B00E35A8D /* SnoopyTests.xctest */,
+				F226090B2C6D276B00E35A8D /* SnoopyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F22608F32C6D276800E35A8D /* Snoopy */ = {
+			isa = PBXGroup;
+			children = (
+				F22608F42C6D276800E35A8D /* SnoopyApp.swift */,
+				F22608F62C6D276800E35A8D /* ContentView.swift */,
+				F22608F82C6D276A00E35A8D /* Assets.xcassets */,
+				F22608FA2C6D276A00E35A8D /* Preview Content */,
+			);
+			path = Snoopy;
+			sourceTree = "<group>";
+		};
+		F22608FA2C6D276A00E35A8D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F22608FB2C6D276A00E35A8D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F22609042C6D276B00E35A8D /* SnoopyTests */ = {
+			isa = PBXGroup;
+			children = (
+				F22609052C6D276B00E35A8D /* SnoopyTests.swift */,
+			);
+			path = SnoopyTests;
+			sourceTree = "<group>";
+		};
+		F226090E2C6D276B00E35A8D /* SnoopyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F226090F2C6D276B00E35A8D /* SnoopyUITests.swift */,
+				F22609112C6D276B00E35A8D /* SnoopyUITestsLaunchTests.swift */,
+			);
+			path = SnoopyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F22608F02C6D276800E35A8D /* Snoopy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F22609152C6D276B00E35A8D /* Build configuration list for PBXNativeTarget "Snoopy" */;
+			buildPhases = (
+				F22608ED2C6D276800E35A8D /* Sources */,
+				F22608EE2C6D276800E35A8D /* Frameworks */,
+				F22608EF2C6D276800E35A8D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Snoopy;
+			productName = Snoopy;
+			productReference = F22608F12C6D276800E35A8D /* Snoopy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F22609002C6D276B00E35A8D /* SnoopyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F22609182C6D276B00E35A8D /* Build configuration list for PBXNativeTarget "SnoopyTests" */;
+			buildPhases = (
+				F22608FD2C6D276B00E35A8D /* Sources */,
+				F22608FE2C6D276B00E35A8D /* Frameworks */,
+				F22608FF2C6D276B00E35A8D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F22609032C6D276B00E35A8D /* PBXTargetDependency */,
+			);
+			name = SnoopyTests;
+			productName = SnoopyTests;
+			productReference = F22609012C6D276B00E35A8D /* SnoopyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F226090A2C6D276B00E35A8D /* SnoopyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F226091B2C6D276B00E35A8D /* Build configuration list for PBXNativeTarget "SnoopyUITests" */;
+			buildPhases = (
+				F22609072C6D276B00E35A8D /* Sources */,
+				F22609082C6D276B00E35A8D /* Frameworks */,
+				F22609092C6D276B00E35A8D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F226090D2C6D276B00E35A8D /* PBXTargetDependency */,
+			);
+			name = SnoopyUITests;
+			productName = SnoopyUITests;
+			productReference = F226090B2C6D276B00E35A8D /* SnoopyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F22608E92C6D276800E35A8D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					F22608F02C6D276800E35A8D = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					F22609002C6D276B00E35A8D = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = F22608F02C6D276800E35A8D;
+					};
+					F226090A2C6D276B00E35A8D = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = F22608F02C6D276800E35A8D;
+					};
+				};
+			};
+			buildConfigurationList = F22608EC2C6D276800E35A8D /* Build configuration list for PBXProject "Snoopy" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F22608E82C6D276800E35A8D;
+			productRefGroup = F22608F22C6D276800E35A8D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F22608F02C6D276800E35A8D /* Snoopy */,
+				F22609002C6D276B00E35A8D /* SnoopyTests */,
+				F226090A2C6D276B00E35A8D /* SnoopyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F22608EF2C6D276800E35A8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F22608FC2C6D276A00E35A8D /* Preview Assets.xcassets in Resources */,
+				F22608F92C6D276A00E35A8D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F22608FF2C6D276B00E35A8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F22609092C6D276B00E35A8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F22608ED2C6D276800E35A8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F22608F72C6D276800E35A8D /* ContentView.swift in Sources */,
+				F22608F52C6D276800E35A8D /* SnoopyApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F22608FD2C6D276B00E35A8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F22609062C6D276B00E35A8D /* SnoopyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F22609072C6D276B00E35A8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F22609122C6D276B00E35A8D /* SnoopyUITestsLaunchTests.swift in Sources */,
+				F22609102C6D276B00E35A8D /* SnoopyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F22609032C6D276B00E35A8D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F22608F02C6D276800E35A8D /* Snoopy */;
+			targetProxy = F22609022C6D276B00E35A8D /* PBXContainerItemProxy */;
+		};
+		F226090D2C6D276B00E35A8D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F22608F02C6D276800E35A8D /* Snoopy */;
+			targetProxy = F226090C2C6D276B00E35A8D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F22609132C6D276B00E35A8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F22609142C6D276B00E35A8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F22609162C6D276B00E35A8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Snoopy/Preview Content\"";
+				DEVELOPMENT_TEAM = 54CV2535JF;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Jared-Nash.Snoopy";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F22609172C6D276B00E35A8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Snoopy/Preview Content\"";
+				DEVELOPMENT_TEAM = 54CV2535JF;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Jared-Nash.Snoopy";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F22609192C6D276B00E35A8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 54CV2535JF;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Jared-Nash.SnoopyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Snoopy.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Snoopy";
+			};
+			name = Debug;
+		};
+		F226091A2C6D276B00E35A8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 54CV2535JF;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Jared-Nash.SnoopyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Snoopy.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Snoopy";
+			};
+			name = Release;
+		};
+		F226091C2C6D276B00E35A8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 54CV2535JF;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Jared-Nash.SnoopyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Snoopy;
+			};
+			name = Debug;
+		};
+		F226091D2C6D276B00E35A8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 54CV2535JF;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Jared-Nash.SnoopyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Snoopy;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F22608EC2C6D276800E35A8D /* Build configuration list for PBXProject "Snoopy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F22609132C6D276B00E35A8D /* Debug */,
+				F22609142C6D276B00E35A8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F22609152C6D276B00E35A8D /* Build configuration list for PBXNativeTarget "Snoopy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F22609162C6D276B00E35A8D /* Debug */,
+				F22609172C6D276B00E35A8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F22609182C6D276B00E35A8D /* Build configuration list for PBXNativeTarget "SnoopyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F22609192C6D276B00E35A8D /* Debug */,
+				F226091A2C6D276B00E35A8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F226091B2C6D276B00E35A8D /* Build configuration list for PBXNativeTarget "SnoopyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F226091C2C6D276B00E35A8D /* Debug */,
+				F226091D2C6D276B00E35A8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F22608E92C6D276800E35A8D /* Project object */;
+}
