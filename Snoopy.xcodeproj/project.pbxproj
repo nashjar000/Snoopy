@@ -14,6 +14,8 @@
 		F22609062C6D276B00E35A8D /* SnoopyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22609052C6D276B00E35A8D /* SnoopyTests.swift */; };
 		F22609102C6D276B00E35A8D /* SnoopyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F226090F2C6D276B00E35A8D /* SnoopyUITests.swift */; };
 		F22609122C6D276B00E35A8D /* SnoopyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22609112C6D276B00E35A8D /* SnoopyUITestsLaunchTests.swift */; };
+		F226091F2C6D27B300E35A8D /* Doctor_Who_Theme_2024.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F226091E2C6D27B300E35A8D /* Doctor_Who_Theme_2024.mp3 */; };
+		F22609212C6D282500E35A8D /* DoctorSnoopy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F22609202C6D282400E35A8D /* DoctorSnoopy.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,9 @@
 		F226090B2C6D276B00E35A8D /* SnoopyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnoopyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F226090F2C6D276B00E35A8D /* SnoopyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnoopyUITests.swift; sourceTree = "<group>"; };
 		F22609112C6D276B00E35A8D /* SnoopyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnoopyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F226091E2C6D27B300E35A8D /* Doctor_Who_Theme_2024.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Doctor_Who_Theme_2024.mp3; path = ../../../../../../Downloads/Doctor_Who_Theme_2024.mp3; sourceTree = "<group>"; };
+		F22609202C6D282400E35A8D /* DoctorSnoopy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = DoctorSnoopy.jpg; path = "../../../../../../Desktop/School/Semester 6 - Spring 2024/CSE310 - Applied Programming/ios Shopping Route Generator/FlashCardApp/Trash/Trash/Trash/DoctorSnoopy.imageset/DoctorSnoopy.jpg"; sourceTree = "<group>"; };
+		F22609222C6D284300E35A8D /* DoctorSnoopy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = DoctorSnoopy.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +102,8 @@
 				F22608F42C6D276800E35A8D /* SnoopyApp.swift */,
 				F22608F62C6D276800E35A8D /* ContentView.swift */,
 				F22608F82C6D276A00E35A8D /* Assets.xcassets */,
+				F226091E2C6D27B300E35A8D /* Doctor_Who_Theme_2024.mp3 */,
+				F22609202C6D282400E35A8D /* DoctorSnoopy.jpg */,
 				F22608FA2C6D276A00E35A8D /* Preview Content */,
 			);
 			path = Snoopy;
@@ -105,6 +112,7 @@
 		F22608FA2C6D276A00E35A8D /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				F22609222C6D284300E35A8D /* DoctorSnoopy.jpg */,
 				F22608FB2C6D276A00E35A8D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
@@ -231,7 +239,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F226091F2C6D27B300E35A8D /* Doctor_Who_Theme_2024.mp3 in Resources */,
 				F22608FC2C6D276A00E35A8D /* Preview Assets.xcassets in Resources */,
+				F22609212C6D282500E35A8D /* DoctorSnoopy.jpg in Resources */,
 				F22608F92C6D276A00E35A8D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
