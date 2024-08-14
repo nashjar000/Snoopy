@@ -43,7 +43,7 @@ struct ContentView: View {
                     .foregroundColor(Color.white)
                 
                 // Optional: Add a share link if needed
-                ShareLink(item: /*@START_MENU_TOKEN@*/URL(string: "https://developer.apple.com/xcode/swiftui")!/*@END_MENU_TOKEN@*/)
+                ShareLink(item: URL(string: "https://github.com/nashjar000/Snoopy")!)
                 }
             }
         }
